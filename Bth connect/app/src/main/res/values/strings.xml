@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">BTHConnect</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="connect">Connect</string>
+    <string name="home">Home</string>
+    <string name="events">Events</string>
+    <string name="go_back">Back</string>
+    <string name="send">Send</string>
+    <string name="menu">Menu</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="create_event">Create Event</string>
+    <string name="students">Students</string>
+    <string name="notifications">Notifications</string>
+    <string name="become_sponsor">Become a Sponsor</string>
+    <string name="get_sponsor">Get a sponsor</string>
+
+
+    <string name="author0">Olle</string>
+    <string name="author1">Richa</string>
+    <string name="author2">Nikhil</string>
+    <string name="author3">Akhil</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="Back">back</string>
+    <string name="back_but">Back</string>
+    <string name="event_n">Event name</string>
+    <string name="event_t">Event time</string>
+    <string name="event_loc">Event location</string>
+    <string name="create_poll">Create poll</string>
+    <string name="bth_con">BTH CONNECT</string>
+    <string name="back_butt">Back</string>
+    <string name="bth_conn">BTH CONNECT</string>
+    <string name="event_nam">Event name</string>
+    <string name="event_tim">Event time</string>
+    <string name="event_locat" tools:ignore="DuplicateDefinition">Event location</string>
+    <string name="back">Back</string>
+    <string name="bth_connect">BTH CONNECT</string>
+    <string name="submit">Submit</string>
+    <string name="event_name">Event name</string>
+    <string name="event_time">Event time</string>
+    <string name="event_location">Event location</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="event_date">Event date</string>
+    <string name="event_dat">Event date</string>
+    <string name="olle_nikhil_akhil_richa_students_pa1469">Olle, Nikhil, Akhil, Richa (Students - PA1469)</string>
+    <string name="_back">back</string>
+    <string name="_create_event">Create Event</string>
+</resources>
+
+
+

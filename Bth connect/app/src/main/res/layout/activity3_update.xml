@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/activity3_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backbutton"
+        android:shadowColor="#02020A"
+        android:text="@string/back"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#747572"
+        android:gravity="center"
+        android:paddingStart="150dp"
+        android:paddingEnd="0dp"
+        android:text="Attend Event"
+        android:textStyle="italic"
+        android:textSize="50sp"
+        android:fontFamily="Arial"
+        android:paddingRight="0dp"
+        android:paddingLeft="150dp" />
+
+
+    <Button
+        android:id="@+id/xmlActivity3Submit"
+        android:layout_width="117dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/becomesponser"
+        android:shadowColor="#2D3EC4"
+        android:text="@string/submit"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="125dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/xmlActivity3Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_name" />
+
+        <TextView
+            android:id="@+id/xmlActivity3Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_time" />
+
+        <TextView
+            android:id="@+id/xmlActivity3Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_date" />
+
+        <TextView
+            android:id="@+id/xmlActivity3Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_loc" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I am attending" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout >

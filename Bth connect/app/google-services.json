@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "741366736762",
+    "firebase_url": "https://bthconnect-68073.firebaseio.com",
+    "project_id": "bthconnect-68073",
+    "storage_bucket": "bthconnect-68073.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741366736762:android:fc6c643cc214b40e8f98c3",
+        "android_client_info": {
+          "package_name": "com.example.bthconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741366736762-8lnmpa7to514ujlj6m4rvi4od4q5tgh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bthconnect",
+            "certificate_hash": "a5bf94f3e087785123e932b5bdc34163ce0e312f"
+          }
+        },
+        {
+          "client_id": "741366736762-shvhlhrqd9sa5ug391h184pb85k28b0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBItZEOW-pwm7QcQnX5WclVW48D0V3JNEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741366736762-shvhlhrqd9sa5ug391h184pb85k28b0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

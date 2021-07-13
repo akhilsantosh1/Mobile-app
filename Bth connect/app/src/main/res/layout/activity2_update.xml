@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/student_list_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backbutton"
+        android:shadowColor="#02020A"
+        android:text="@string/back"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#747572"
+        android:gravity="center"
+        android:paddingStart="150dp"
+        android:paddingEnd="0dp"
+        android:text="@string/create_event"
+        android:textStyle="italic"
+        android:textSize="50sp"
+        android:fontFamily="Arial"
+        android:paddingRight="0dp"
+        android:paddingLeft="150dp" />
+
+
+    <Button
+        android:id="@+id/activity2_create_poll"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="137dp"
+        android:layout_height="59dp"
+        android:background="@drawable/becomesponser"
+        android:shadowColor="#02020A"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="@string/_create_event"
+        android:layout_centerHorizontal ="true"
+        android:layout_marginTop="350dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="125dp"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/xmlEventName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:hint="@string/event_name"
+            android:inputType="text"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/xmlEventTime2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/event_time"
+            android:inputType="time"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/xmlEventDate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:hint="@string/event_date"
+            android:inputType="date"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/xmlEventLocation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/event_location"
+            android:inputType="text"
+            android:textColor="#000" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout >
